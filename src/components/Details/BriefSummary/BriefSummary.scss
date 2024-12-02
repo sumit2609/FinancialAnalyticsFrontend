@@ -1,0 +1,11 @@
+.brief_summary_container{
+    width: 100%;
+    .brief_summary_container_header_wrapper{
+        display: flex;
+        gap: 20px;
+        align-items: center;
+        justify-content: space-between;
+        flex-wrap: wrap;
+
+    }
+}

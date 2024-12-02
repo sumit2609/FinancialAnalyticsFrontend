@@ -1,0 +1,29 @@
+.transaction_container{
+    display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 10px 0rem;
+        margin: 0 1.5rem;
+    .transaction_profile_wrapper{
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        img{
+            height: 50px;
+            width: 50px;
+            object-fit: cover;
+            border-radius: 50%;
+        }
+        span{
+
+        }
+    }
+    .amount{
+        // margin-left: -1rem;
+    }
+    .status{
+        font-size: 12px;
+        font-weight: 500;
+    }
+    
+}
