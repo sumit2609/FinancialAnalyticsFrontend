@@ -1,5 +1,5 @@
 
-import { useState } from 'react';
+//import { useState } from 'react';
 import SearchIcon from '../../assets/search_icon.svg';
 import './SearchBar.scss';
 

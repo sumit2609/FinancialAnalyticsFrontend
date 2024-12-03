@@ -10,13 +10,13 @@ function DateRangePickerFree({setSearchResults}) {
   const [startDate, setStartDate] = useState(null);
   const [endDate, setEndDate] = useState(null);
 
-  const formatDate = (date) => {
-    if (!date) return "";
-    const year = date.year();
-    const month = String(date.month() + 1).padStart(2, "0"); 
-    const day = String(date.date()).padStart(2, "0");
-    return `${year}-${month}-${day}`;
-  };
+  // const formatDate = (date) => {
+  //   if (!date) return "";
+  //   const year = date.year();
+  //   const month = String(date.month() + 1).padStart(2, "0"); 
+  //   const day = String(date.date()).padStart(2, "0");
+  //   return `${year}-${month}-${day}`;
+  // };
   useEffect(() => {
     const fetchTransactions = async () => {
         try {
