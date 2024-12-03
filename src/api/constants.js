@@ -1,4 +1,4 @@
-export const API_URL = 'http://13.203.103.85:5001/api'
+export const API_URL = 'http://localhost:5001/api'
 
 //API END POINTS
 export const GET_TOTAL_REVENUE = '/totalRevenue'
