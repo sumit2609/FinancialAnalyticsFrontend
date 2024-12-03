@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/sumit2609/FinancialAnalyticsFrontend.git/static/css/main.249ab194.css",
+    "main.js": "/sumit2609/FinancialAnalyticsFrontend.git/static/js/main.66111330.js",
+    "static/media/profile.svg": "/sumit2609/FinancialAnalyticsFrontend.git/static/media/profile.357c7f8f43fbf2002b2c04abe93545a0.svg",
+    "static/media/Logo.svg": "/sumit2609/FinancialAnalyticsFrontend.git/static/media/Logo.cc34b5e5f7ccd3055429146551addf10.svg",
+    "static/media/wallet_icon.svg": "/sumit2609/FinancialAnalyticsFrontend.git/static/media/wallet_icon.a4a7763b1d59c2ddef1532c25650a84f.svg",
+    "static/media/settings_icon.svg": "/sumit2609/FinancialAnalyticsFrontend.git/static/media/settings_icon.94a491bf3f09049a72c8669c865ddecf.svg",
+    "static/media/revenue_icon.svg": "/sumit2609/FinancialAnalyticsFrontend.git/static/media/revenue_icon.edb5e624bfd808cb3ba619d3570a8ecd.svg",
+    "static/media/Notification.svg": "/sumit2609/FinancialAnalyticsFrontend.git/static/media/Notification.e23186d8898288533305e56f4b99fa74.svg",
+    "static/media/analytics_icon.svg": "/sumit2609/FinancialAnalyticsFrontend.git/static/media/analytics_icon.4387c42c8fbadd47fb129fb0b283d16d.svg",
+    "static/media/dollar_icon.svg": "/sumit2609/FinancialAnalyticsFrontend.git/static/media/dollar_icon.e914cfd14bae688df8f202ea386be233.svg",
+    "static/media/balance_icon.svg": "/sumit2609/FinancialAnalyticsFrontend.git/static/media/balance_icon.d726c83f7691daa642582f58109ffa67.svg",
+    "static/media/transactions_icon.svg": "/sumit2609/FinancialAnalyticsFrontend.git/static/media/transactions_icon.4d546f399da23da8769f7dd44073ed17.svg",
+    "static/media/expense.svg": "/sumit2609/FinancialAnalyticsFrontend.git/static/media/expense.04e4c14409bd8b9ee1455c588a030dc1.svg",
+    "static/media/message_icon.svg": "/sumit2609/FinancialAnalyticsFrontend.git/static/media/message_icon.ef644b3144eec6243c01ff778d952a7b.svg",
+    "static/media/user_icon.svg": "/sumit2609/FinancialAnalyticsFrontend.git/static/media/user_icon.52e3b8fc0286688cefed4af44c18fc10.svg",
+    "static/media/search_icon.svg": "/sumit2609/FinancialAnalyticsFrontend.git/static/media/search_icon.2143b2ba7e8d0de84631c770d378e545.svg",
+    "index.html": "/sumit2609/FinancialAnalyticsFrontend.git/index.html",
+    "main.249ab194.css.map": "/sumit2609/FinancialAnalyticsFrontend.git/static/css/main.249ab194.css.map",
+    "main.66111330.js.map": "/sumit2609/FinancialAnalyticsFrontend.git/static/js/main.66111330.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.249ab194.css",
+    "static/js/main.66111330.js"
+  ]
+}
