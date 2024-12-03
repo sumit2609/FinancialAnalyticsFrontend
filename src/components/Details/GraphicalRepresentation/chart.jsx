@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React, { useEffect, useRef, useState } from 'react';
 import { Line } from 'react-chartjs-2';
 import { API_URL,ANALYTICS } from "../../../api/constants";
 import {
@@ -30,9 +30,9 @@ const LineChart = () => {
   });
 
   const [error, setError] = useState(null);
-  let yAxisMin;
-  let yAxisMax;
-  let stepSize;
+  const yAxisMin = useRef(null);
+  const yAxisMax = useRef(null);
+  const stepSize = useRef(null);
   useEffect(() => {
     const fetchData = async () => {
       try {
@@ -55,9 +55,9 @@ const LineChart = () => {
 
         const range = maxValue - minValue;
         const numberOfTicks = 55; 
-        stepSize = Math.ceil(range / numberOfTicks);
-        yAxisMin = Math.floor(minValue / stepSize) * stepSize; 
-        yAxisMax = Math.ceil(maxValue / stepSize) * stepSize;
+        stepSize.current = Math.ceil(range / numberOfTicks);
+        yAxisMin.current = Math.floor(minValue / stepSize) * stepSize; 
+        yAxisMax.current = Math.ceil(maxValue / stepSize) * stepSize;
         setChartData({
           labels: month,
           datasets: [
@@ -107,8 +107,8 @@ const LineChart = () => {
     scales:{
       y: {
         beginAtZero: false,
-        min: yAxisMin,
-        max: yAxisMax, 
+        min: yAxisMin.current,
+        max: yAxisMax.current, 
         ticks: {
           stepSize: 50, 
           callback: function (value) {

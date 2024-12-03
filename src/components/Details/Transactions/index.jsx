@@ -34,7 +34,7 @@ const Transactions = ({ transaction,query }) => {
       }
     };
       fetchTransactions();
-  }, [transaction]);
+  }, [transaction,query]);
 
   // Filter transactions by status
   useEffect(() => {

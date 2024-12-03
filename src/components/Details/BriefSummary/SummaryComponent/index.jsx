@@ -18,7 +18,7 @@ const SummaryComponent = ({summaryTitle,icon}) => {
         };
     
         fetchData(); 
-      }, []);
+      }, [summaryTitle]);
   return (
     <div className='summary_container'>
         <div className='span_container_icon'>

@@ -29,7 +29,7 @@ function DateRangePickerFree({setSearchResults}) {
     if(endDate && startDate){
         fetchTransactions();
     }
-  },[startDate,endDate]);
+  },[startDate,endDate,setSearchResults]);
 
   return (
     <LocalizationProvider dateAdapter={AdapterDayjs}>
